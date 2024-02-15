@@ -99,3 +99,22 @@ a {
     padding: 3px 10px;
     font-size: 15px;
 }
+
+.article-ul {
+    display: flex;
+    flex-direction: column;
+}
+
+.article-ul li {
+    margin: 20px 0px;
+}
+
+.article-ul li a {
+    display: flex;
+    justify-content: space-between;
+}
+
+.group-pagination {
+    display: flex;
+    justify-content: space-between;
+}
